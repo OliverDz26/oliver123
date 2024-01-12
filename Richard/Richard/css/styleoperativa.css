@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(70deg, rgb(53, 53, 67), rgb(34, 34, 62));
+    text-align: center;
+    color: white;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #4c63af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boton:hover {
+    background-color: #4c63af;
+  }
+  .boton:active {
+    background-color: #4c63af;
+  }
+  
+textarea {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(148, 148, 148);
+}
