@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Richard/css/style.css">
+    <title>Portafolio.Itesil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..
+    24&family=Heebo&family=Karla:ital,wght@1,300&family=Roboto+Condensed:wght@300&family
+    =Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Img/Menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Intituto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    
+        <div class="header-content container">
+
+            <h1>Portafolio</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas cum nemo quae 
+                doloremque magni alias inventore facere nihil, neque animi, similique, molestias deserunt
+                dignissimos mollitia veniam sit sunt? Qui, culpa!
+             </p>
+             <a href="#" class="btn-1">Informacion</a>
+        </div>
+    </header>
+
+    <section class="Portafolio">
+
+        <img src="Img/Dibujos_Oscuros.png" alt="">
+
+        <div class="medio-container">
+
+            <h2>Nuestra Mision</h2>
+            <p class="txt-p">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia unde repellendus
+                 soluta assumenda optio! Cumque officia rem incidunt optio doloribus. Nulla provident,
+                  amet rerum beatae aliquam laboriosam! Ipsam, est error.
+            </p>
+        </div>
+
+    </section>
+
+    <div class="Cuerpo">
+    <h1 class="Titulos">Nuestros formularios</h1>
+    <div class="fi_container"><br><br>
+        <h1 class="Titulos-secundarios">Formulario de Viabilidad Técnica</h1>
+        <form action="/procesar_financiera" method="post">
+        <label for="proyecto">Nombre:</label><br>
+        <input class="barra-de-texto" type="text" name="Proyecto" required>
+        <br>
+        <br>
+        <label for="costo">Costo Estimado:</label><br>
+        <input class="barra-de-texto" type="number" id="costo" name="costo" required>
+        <br>
+        <br>
+        <label for="Ingresos">Ingresos Estimados:</label><br>
+        <input class="barra-de-texto" type="number" id="Ingresos" name="ingresos" required>
+        <br>
+        <br>
+        <button class="boton" onclick="location.href='Formulario_Viabilidad_Tecnica.html'">Enviar</button><br><br>
+        </form>
+    </div>
+    <div class="fi_container"><br><br>
+        <h1 class="Titulos-secundarios">Formulario Viabilidad Financiera</h1>
+        <form action="/procesar_operativa" method="post">
+        <label for="proyecto">Nombre:</label><br>
+        <input class="barra-de-texto" type="text" name="Proyecto" required>
+        <br>
+        <br>
+        <label for="Operativa">Costo Estimado:</label><br>
+        <input class="barra-de-texto" type="number" id="Costo" name="Costo_estimado" required>
+        <br>
+        <br>
+        <label for="Operativa">Ingresos Estimados:</label><br>
+        <input class="barra-de-texto" type="number" id="Ingresos" name="Ingresos_Estimados" required>
+        <br>
+        <br>
+        <button class="boton" onclick="location.href='Formulario_Viabilidad_Financiera.html'">Enviar</button><br><br>
+        </form>
+    </div>
+    <div class="fi_container"><br><br>
+        <h1 class="Titulos-secundarios">Formulario de Viabilidad Técnica</h1>
+        <form action="/procesar_Técnica" method="post">
+        <label for="proyecto">Nombre:</label><br>
+        <input class="barra-de-texto" type="text" name="Proyecto" required>
+        <br>
+        <br>
+        <label for="Operativa">Costo Estimado:</label><br>
+        <input class="barra-de-texto" type="number" id="Costo" name="Costo_estimado" required>
+        <br>
+        <br>
+        <label for="Operativa">Ingresos Estimados:</label><br>
+        <input class="barra-de-texto" type="number" id="Ingresos" name="Ingresos_Estimados" required>
+        <br>
+        <br>
+        <button class="boton" onclick="location.href='Formulario_Viabilidad_Operativa.html'">Enviar</button><br><br>
+        </form>
+    </div>
+</div>
+</div>
+</body>         
+</html>
